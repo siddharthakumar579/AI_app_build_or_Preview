@@ -6,7 +6,7 @@ AI App Builder takes a simple text prompt and generates a complete **HTML, CSS, 
 
 ---
 
-## ✨ Features
+✨ Features
 
 * 🧠 **Prompt → App**
   Describe your idea and get a working web app instantly
