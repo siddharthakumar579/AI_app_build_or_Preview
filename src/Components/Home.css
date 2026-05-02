@@ -1,0 +1,31 @@
+.main{
+  background-color: #214946;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  display: flex;
+  width: 600px;
+  height: 70px;
+  gap: 20px;
+  padding: 20px;
+  background-color: #131e25;;
+  justify-content: space-evenly;
+}
+
+.input{
+  width: 100%;
+  padding-left: 15px;
+  border-radius: 6px;
+  border: none;
+}
+
+.submit{
+  padding: 4px;
+  border-radius: 6px;
+  border: none;
+}
