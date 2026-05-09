@@ -62,7 +62,7 @@ function App() {
       setAiSpecs(parsed.specs || "No specs provided");
       setAiCode(parsed.code);
 
-      // ✅ Switch UI only on success
+      //Switch UI only on success
       setHasSubmitted(true);
 
     } catch (error) {
