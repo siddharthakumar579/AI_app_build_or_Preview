@@ -47,7 +47,7 @@ function App() {
       // 🔧 Fix common AI issues (optional cleanup)
       text = text.replace(/<\/html>\s*<\/html>/g, "</html>");
 
-      // ✅ Parse JSON safely
+      // Parse JSON safely
       let parsed;
       try {
         parsed = JSON.parse(text);
