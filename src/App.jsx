@@ -44,10 +44,10 @@ function App() {
 
       let text = response.text;
 
-      // 🔧 Fix common AI issues (optional cleanup)
+      // Fix common AI issues (optional cleanup)
       text = text.replace(/<\/html>\s*<\/html>/g, "</html>");
 
-      // ✅ Parse JSON safely
+      // Parse JSON safely
       let parsed;
       try {
         parsed = JSON.parse(text);
@@ -62,7 +62,7 @@ function App() {
       setAiSpecs(parsed.specs || "No specs provided");
       setAiCode(parsed.code);
 
-      // ✅ Switch UI only on success
+      //Switch UI only on success
       setHasSubmitted(true);
 
     } catch (error) {
@@ -150,7 +150,7 @@ function App() {
         </div>
       )}
     </div>
-  );
+  ); 
 }
 
 export default App;
